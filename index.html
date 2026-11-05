@@ -232,45 +232,16 @@
 
     <!-- Tabs -->
     <div class="project-tabs">
-      <button class="proj-tab active" data-target="ongoing-projects">Ongoing projects</button>
       <button class="proj-tab" data-target="recent-projects">Recent projects</button>
     </div>
 
-    <!-- Ongoing projects -->
-    <div class="projects-grid" id="ongoing-projects">
-    <article class="project-card">
-        <p class="project-label">Ongoing: Frontend</p>
-        <h3>SpendWise – personal finance & spending analytics</h3>
-        <p class="project-subtitle">
-        A full-stack application where users track expenses and get an overview of their spending.
-        </p>
-
-        <div class="project-tags">
-          <span>Python</span>
-          <span>FastAPI</span>
-          <span>PostgreSQL</span>
-          <span>REST API</span>
-          <span>JWT Auth</span>
-          <span>Pandas</span>
-          <span>Machine Learning</span>
-          <span>Frontend (in progress)</span>
-        </div>
-
-        <ul class="project-points">
-        <li>Users create accounts and record income and expenses.</li>
-        <li>Categorizes transactions and stores them in PostgreSQL.</li>
-        <li>Dashboard showing spending by category, month and trends.</li>
-        <li>Adds a small analytics/ML feature that detects unusual spending patterns.</li>
-        <li>Optional AI feature: users can ask questions like “How much did I spend on food last month?”</li>
-        
-        </ul>
 
         <!-- <a href="YOUR_GITHUB_LINK" class="project-link" target="_blank">View on GitHub</a> -->
     </article>
     </div>
  
 
- <!-- Recent (finished) projects -->
+ <!-- Finished projects -->
 <div class="projects-grid hidden" id="recent-projects">
 
 <!-- Thesis project -->
@@ -309,19 +280,21 @@
     and visualising financial habits through interactive dashboards.
   </p>
 
-  <div class="project-tags">
+<div class="project-tags">
+    <span>React</span>
     <span>Python</span>
     <span>FastAPI</span>
     <span>PostgreSQL</span>
+    <span>SQLAlchemy</span>
+    <span>Docker</span>
+    <span>Chart.js</span>
     <span>REST API</span>
-    <span>JWT Auth</span>
-    <span>Frontend (in progress)</span>
   </div>
 
-  <ul class="project-points">
-    <li>Lets users record, update and organise expenses by category.</li>
-    <li>Provides an overview of spending patterns and monthly financial trends.</li>
-    <li>Uses authenticated user accounts and a PostgreSQL database to securely manage personal data.</li>
+<ul class="project-points">
+    <li>Lets users add, view, and delete transactions with real-time category filtering.</li>
+    <li>Provides dynamic visual overviews of spending patterns using interactive Chart.js charts.</li>
+    <li>Containerized with Docker Compose to coordinate React, FastAPI, and PostgreSQL seamlessly.</li>
   </ul>
 
     <!-- <a href="GITHUB_OR_APP_LINK" class="project-link" target="_blank">Open dashboard</a> -->
