@@ -174,19 +174,15 @@ body {
    ========================================================= */
 
 .hero-buttons-top {
- .hero-buttons-top {
-    position: fixed;
-
-    top: 20px;
-    left: 50%;
-    transform: translateX(-50%);
+    position: absolute;
+    top: -65px;
+    left: 0;
 
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
 
     gap: 0.7rem;
-
     padding: 0.35rem 0.5rem;
 
     background: rgba(255, 255, 255, 0.95);
@@ -194,11 +190,8 @@ body {
     border-radius: 10px;
 
     box-shadow: var(--shadow-md);
-
     z-index: 1000;
-
     white-space: nowrap;
-}
 }
 
 .hero a {
